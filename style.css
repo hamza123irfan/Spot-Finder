@@ -1,0 +1,267 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+#nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -5px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border: 1px solid rgb(201, 201, 201);
+    border-left: 0px;
+    border-right: 0px;
+    height: 70px;
+}
+    /* .bottom{
+        margin-top: -5px;
+        
+    }
+    .top{
+        margin-bottom: -10px;
+    } */
+a{
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+a:hover{
+    color: red;
+    font-size: 14.2px;
+    font-weight: 700;
+}
+button{
+    margin-left: 20px;
+    background-color: red;
+    border: 0px;
+    color: white;
+    border-radius: 30px;
+    width: 80px;
+    height: 25px;
+    
+}
+.reg{
+    color: white;
+    margin-left: 0px;
+    font-weight: bold;
+}
+.reg:hover{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.head{
+    font-size: x-large;
+    font-weight: bold;
+}
+.first{
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(78, 77, 77);
+}
+.simple{
+    color: red;
+    font-size: 45px;
+    font-weight: bold;
+}
+.space{
+    margin-top: -10px;
+    font-size: 17px;
+    color: rgb(110, 110, 110);
+    font-weight: 500;
+}
+select{
+    margin-top: 15px;
+}
+.diff{
+    margin-top: 15px;
+    width: 125px;
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+.diff::placeholder{
+    color: red;
+}
+.loc{
+    width: 290px;
+    height: 40px;
+    padding-left: 30px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.loc::placeholder{
+    color: black;
+}
+#park{
+    width: 323px;
+    height: 40px;
+    padding-left: 25px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.search{
+    width: 240px;
+    height: 45px;
+    margin-top: 20px;
+}
+.search:hover{
+    background-color: rgb(212, 31, 31);
+}
+.spark{
+    color: white;
+    margin-left: 0px;
+    font-weight: bold;
+}
+.spark:hover{
+    color: white;
+    font-size: 14px;
+}
+img{
+    width: 480px;
+    height: 360px;
+    border-radius: 10px;
+}
+.sub{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7%;
+}
+.every{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+.car{
+    color: rgb(100, 99, 99);
+    font-size: larger;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -35px;
+}
+.ff{
+    width: 280px;
+    height: 180px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.fftext{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 29%;
+}
+.down{
+    display: flex;
+    justify-content: space-around;
+}
+.images{
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.ffbutt{
+    width: 115px;
+    height: 35px;
+    font-weight: bold;
+    margin-left: 28.5%;
+    margin-top: 5%;
+}
+.ffbutt:hover{
+    background-color: rgb(212, 31, 31);
+}
+.anon{
+    margin-top: 8%;
+    margin-left: 2%;
+    border: 1px solid rgb(168, 168, 168);
+    width: 50%;
+    border-radius: 10px;
+}
+.anhead{
+    padding-left: 3%;
+}
+.anpara{
+    padding-left: 3%;
+}
+.middle{
+    display: flex;
+    justify-content: space-around;
+}
+.middiv{
+    text-align: center;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    height: 250px;
+}
+.mainmid{
+    background-color: rgb(235, 69, 69);
+    width: 95%;
+    height: 400px;
+    text-align: center;
+    margin-left: 2.5%;
+    border-radius: 10px;
+    margin-top: 7%;
+}
+.midhead{
+    color: white;
+}
+.midpara{
+    color: white;
+    width: 60%;
+    padding-left: 20%;
+}
+.fgtext{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.ddown{
+    display: flex;
+    justify-content: space-around;  
+    margin-top: 5%;
+}
+.iim{
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    margin-top: 40px;
+    height: 300px;
+}
+.dda{
+    color: red;
+    text-decoration: underline;
+}
+.dda:hover{
+    font-size: 14px;
+    font-weight: 500;
+}
+.last{
+    height: 4px;
+    background-color: rgb(218, 10, 10);
+    margin-top: 8%;
+    border: 0;
+}
+#last{
+    display: flex;
+    justify-content: space-around;
+}
+.ll{
+    width: 30%;
+    text-align: center;
+}
+.about{
+    font-size: medium;
+    color: red;
+}
+.as{
+    font-size: small;
+    width: 60%;
+    margin-left: 20%;
+    color: rgb(129, 129, 129);
+}
